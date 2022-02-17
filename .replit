@@ -1,0 +1,2 @@
+language = "nix"
+run = "python src/main.py"
