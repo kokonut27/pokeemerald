@@ -1,5 +1,7 @@
 import pygame
+from pygame.locals import *
 import os
+import random
 from replit import db
 
 key_up = "\x1b[A"
@@ -12,6 +14,11 @@ def pokeemerald():
   logo = pygame.image.load("media/logo.jpeg")
   pygame.display.set_icon(logo)
   pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+
+  class Player(pygame.sprite.Sprite):
+    def __init__(self):
+      super().__init__()
+      
 
   running = True
 
