@@ -1,9 +1,4 @@
-import os
-import time
-import sys
-import getpass
-import cursor
-import getkey
+import pygame
 from replit import db
 
 key_up = "\x1b[A"
